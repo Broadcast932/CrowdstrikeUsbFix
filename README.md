@@ -9,13 +9,13 @@ Use the Windows ADK to create a bootable Windows PE USB.
 
 Add the script to the USB:
 
-Copy the script provided in the artifact to a file named fix.bat on the root of the USB drive.
+Copy the script provided in the artifact to a file named CrowdstrikeFix.bat on the root of the USB drive.
 
 
 Modify the Windows PE startup:
 
 Mount the Windows PE image on the USB.
-Edit the startnet.cmd file to include a line that runs your fix.bat script.
+Edit the startnet.cmd file to include a line that runs your CrowdstrikeFix.bat script.
 
 
 Use the USB to fix the machines:
